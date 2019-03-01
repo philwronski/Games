@@ -1,0 +1,17 @@
+.gameRow {
+    border: 1px solid #444;
+    height: 120px;
+    display: flex;
+
+    &Img {
+        height: 100%;
+    }
+
+    img {
+        height: 100%;
+    }
+
+    &Informations {
+        flex: 1;
+    }
+}
