@@ -1,10 +1,10 @@
 import React from 'react';
 import logo from '../../logo.svg';
-import {Game as GameType} from '../game.type';
+import {TGame} from '../game.type';
 
 import style from './game-row.module.scss';
 
-const Game: React.SFC<GameType> = ({title, description}) => (
+const GameRow: React.SFC<TGame> = ({title, description}) => (
     <div className={style.gameRow}>
         <div className={style.gameRowImg}>
             <img src={logo} alt=""/>
@@ -16,4 +16,4 @@ const Game: React.SFC<GameType> = ({title, description}) => (
     </div>
 );
 
-export default Game;
+export default GameRow;
